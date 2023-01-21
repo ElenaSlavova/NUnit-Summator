@@ -8,6 +8,8 @@ namespace Summator
 {
     public static class Summator
     {
+
+        // Test method for sum of array from numners
         public static int Sum(int[] arr)
         {
 
