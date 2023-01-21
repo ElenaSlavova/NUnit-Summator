@@ -19,7 +19,7 @@ namespace Summator
             {
                 sum += arr[i];
             }
-            // retur sum
+            // return sum
             return sum;
         }
 
