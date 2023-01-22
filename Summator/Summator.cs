@@ -57,19 +57,5 @@ namespace Summator
             }
             return sum / arr.Length;
         }
-
-        public static void Test_SumTwoNumbers()
-        {
-
-            if (Sum(new int[] { 1, 2 }) != 3)
-            {
-                throw new Exception("1+2 != 3");
-            }
-            else
-            {
-                Console.WriteLine("Test Pass!");
-
-            }
-        }
     }
 }
