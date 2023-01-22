@@ -10,7 +10,6 @@ namespace Summator.UnitTests
             var expected = 3;
 
             Assert.AreEqual(expected, actual);
-
         }
 
         [Test]
@@ -21,7 +20,6 @@ namespace Summator.UnitTests
             var expected = -30;
 
             Assert.AreEqual(expected, actual);
-
         }
 
         [Test]
@@ -32,7 +30,6 @@ namespace Summator.UnitTests
             var expected = 6;
 
             Assert.AreEqual(expected, actual);
-
         }
 
         [Test]
@@ -43,8 +40,8 @@ namespace Summator.UnitTests
             var expected = 0;
 
             Assert.AreEqual(expected, actual);
-
         }
+
         [Test]
         public void Test_Summator_BigNumbers()
         {
@@ -53,10 +50,9 @@ namespace Summator.UnitTests
             var expected = 6000000000;
 
             Assert.AreEqual(expected, actual);
-
         }
 
-        /// AveargeTests
+        // AverageTests
 
         [Test]
         public void Test_Average_SumOfPossitiveNumbers()
@@ -68,8 +64,6 @@ namespace Summator.UnitTests
             Assert.AreEqual(expected, actual);
         }
 
-     
-
         [Test]
         public void Test_Average_SumOfNeggativeNumbers()
         {
@@ -78,7 +72,6 @@ namespace Summator.UnitTests
             var expected = -20;
 
             Assert.AreEqual(expected, actual);
-
         }
 
         [Test]
@@ -89,7 +82,6 @@ namespace Summator.UnitTests
             var expected = 2000000000;
 
             Assert.AreEqual(expected, actual);
-
         }
 
         [Test]
@@ -97,7 +89,6 @@ namespace Summator.UnitTests
         {
             var nums = new int[] { 3, 6, 9};
             var actual = Summator.Average(nums,"multiply");
-            
             var expected = 54;
 
             Assert.AreEqual(expected, actual);
@@ -108,19 +99,16 @@ namespace Summator.UnitTests
         {
             var nums = new int[] { -2, -4, -6 };
             var actual = Summator.Average(nums, "multiply");
-
             var expected = -16;
 
             Assert.AreEqual(expected, actual);
         }
-
 
         [Test]
         public void Test_Average_MyltiplyOfBigNumbers()
         {
             var nums = new int[] { 20000, 200000 };
             var actual = Summator.Average(nums, "multiply");
-
             var expected = 2000000000;
 
             Assert.AreEqual(expected, actual);
@@ -136,8 +124,6 @@ namespace Summator.UnitTests
             Assert.AreEqual(expected, actual);
         }
 
-
-
         [Test]
         public void Test_Average_SubstractOfNeggativeNumbers()
         {
@@ -146,7 +132,6 @@ namespace Summator.UnitTests
             var expected = -20;
 
             Assert.AreEqual(expected, actual);
-
         }
 
         [Test]
@@ -157,9 +142,6 @@ namespace Summator.UnitTests
             var expected = 500000000;
 
             Assert.AreEqual(expected, actual);
-
         }
-
-
     }
 }
