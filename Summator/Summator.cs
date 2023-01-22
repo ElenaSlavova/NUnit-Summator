@@ -19,10 +19,11 @@ namespace Summator
             {
                 sum += arr[i];
             }
-
+            // return sum
             return sum;
         }
 
+        // Here is the sample test
         public static void Test_SumTwoNumbers()
         {
 
