@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Summator.Test_SumTwoNumbers();
+            Console.WriteLine(Summator.Average(new int[] { 20000, 20000 }, "multiply"));
         }
     }
 }
