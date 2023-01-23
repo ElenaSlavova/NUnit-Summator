@@ -45,7 +45,7 @@ namespace Summator.UnitTests
         [Test]
         public void Test_Summator_BigNumbers()
         {
-            var nums = new int[] { 2000000000, 2000000000, 2000000000};
+            var nums = new int[] { 2000000000, 2000000000, 2000000000 };
             var actual = Summator.Sum(nums);
             var expected = 6000000000;
 
@@ -57,8 +57,8 @@ namespace Summator.UnitTests
         [Test]
         public void Test_Average_SumOfPossitiveNumbers()
         {
-            var nums = new int[] { 1,5,4,2};
-            var actual = Summator.Average(nums,"add");
+            var nums = new int[] { 1, 5, 4, 2 };
+            var actual = Summator.Average(nums, "add");
             var expected = 3;
 
             Assert.AreEqual(expected, actual);
@@ -67,7 +67,7 @@ namespace Summator.UnitTests
         [Test]
         public void Test_Average_SumOfNeggativeNumbers()
         {
-            var nums = new int[] { -1,-50,-9};
+            var nums = new int[] { -1, -50, -9 };
             var actual = Summator.Average(nums, "add");
             var expected = -20;
 
@@ -87,8 +87,8 @@ namespace Summator.UnitTests
         [Test]
         public void Test_Average_MyltiplyOfPossitiveNumbers()
         {
-            var nums = new int[] { 3, 6, 9};
-            var actual = Summator.Average(nums,"multiply");
+            var nums = new int[] { 3, 6, 9 };
+            var actual = Summator.Average(nums, "multiply");
             var expected = 54;
 
             Assert.AreEqual(expected, actual);
@@ -117,7 +117,7 @@ namespace Summator.UnitTests
         [Test]
         public void Test_Average_SubstractOfPossitiveNumbers()
         {
-            var nums = new int[] { 100, 50, 5,5};
+            var nums = new int[] { 100, 50, 5, 5 };
             var actual = Summator.Average(nums, "substract");
             var expected = 10;
 
@@ -137,7 +137,7 @@ namespace Summator.UnitTests
         [Test]
         public void Test_Average_SubstractNumbers()
         {
-            var nums = new int[] { 2000000000,1000000000 };
+            var nums = new int[] { 2000000000, 1000000000 };
             var actual = Summator.Average(nums, "substract");
             var expected = 500000000;
 
